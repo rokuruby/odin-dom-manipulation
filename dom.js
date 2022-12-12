@@ -13,15 +13,15 @@ content2.classList.add('content');
 content2.textContent = "I'm a blue h3!!";
 content2.style.cssText = 'color: blue; background: white;';
 
-// a <div> with a black border and pink background color with the following elements inside of it:
+// create the containing div
 const content3 = document.createElement('div');
 content3.classList.add('content');
 
-    // another <h1> that says “I’m in a div”
+    // create <h1> that says “I’m in a div”
 const content3h1 = document.createElement('h1');
     content3h1.classList.add('content');
     content3h1.textContent = "I'm in a div!";
-    // a <p> that says “ME TOO!”
+    // create a <p> that says “ME TOO!”
 const content3p = document.createElement('p');
     content3p.classList.add('content');
     content3p.textContent = "ME TOO!";
